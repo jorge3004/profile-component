@@ -32,22 +32,6 @@ class ProfileCard extends HTMLElement {
   render() {
     this.shadow.innerHTML = `
         <style>
-
-        * {
-  margin: 0;
-  padding: 0;
-  font-family: "Ubuntu" sans-serif;
-  text-decoration: no;
-}
-
-body {
-  height: 100vh;
-  background: url(bg.jpg) no-repeat center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .profile-card {
   width: 400px;
   text-align: center;
